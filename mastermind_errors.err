@@ -1,0 +1,6 @@
+At 2023-12-05 01:23:25.820543 [Errno 2] No such file or directory: 'leaderboard.txt' leaderboard.txt not found a new one is created.
+At 2023-12-05 16:50:26.547471 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-12-05 16:56:17.762608 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-12-05 18:38:08.561451 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-12-06 22:09:38.490248 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-12-06 22:10:03.953398 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.

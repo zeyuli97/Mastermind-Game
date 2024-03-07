@@ -1,0 +1,17 @@
+At 2023-11-28 17:08:03.265524 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-28 17:10:33.856972 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-11-28 17:16:01.128212 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-11-28 18:48:36.932532 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-11-28 19:10:17.210958 [Errno 2] No such file or directory: 'leaderboard.txt' leaderboard.txt not found a new one is created.
+At 2023-11-28 20:49:42.782217 [Errno 2] No such file or directory: 'leaderboard.txt' leaderboard.txt not found a new one is created.
+At 2023-11-30 16:52:11.110101 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 16:52:24.579951 [Errno 2] No such file or directory: 'leaderboard.txt' leaderboard.txt not found a new one is created.
+At 2023-11-30 17:06:16.256259 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 17:10:43.282629 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 17:12:13.097143 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-11-30 17:20:36.363534 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 17:30:45.565735 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 17:33:04.212506 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 17:57:50.079201 Muti-Click error occurred which causing duplicated color in color code, so row_reset() is called.
+At 2023-11-30 18:06:47.966524 'NoneType' object has no attribute 'upper' due to user does not give a valid player name -- name them untrackable user.
+At 2023-11-30 20:13:01.503696 [Errno 2] No such file or directory: 'leaderboard.txt' leaderboard.txt not found a new one is created.

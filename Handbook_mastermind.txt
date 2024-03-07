@@ -1,0 +1,55 @@
+######
+Some important game features and deficiencies.
+
+Feature:
+
+For any error/win/lose/warning message, any click will remove the message from screen. However, if you click any functional 
+buttons(like xbutton/checkbutton/colormarble) when error message popped up, addtional to remove error message, the functional 
+button will also do its job. So do not click interative button if you only want to remove error message.
+
+At the end of game, win/lose/quit message will pop up. Two clicks needed to close turtle.Screen object, first is to close the 
+error message and second is closing the turtle.
+
+Invalid username None (clicked cancel for username input), will record into .err file and change username to untrackble user.
+
+Deficiencies:
+
+Extreme quick double or triple clicks on same color selection button causing duplicated color in backend, because it takes a short time 
+to actually de-activate the selected button. The GUI will show an unfilled empty circle between two filled circle. Simply reset the row(xbutton) 
+will solve the issue, or if you click green checkbutton when duplicated colors exist and four colors are choosen, a forced reset will perform 
+and error message will pop up and record in .err file. # Highly recommand to try on purpose.
+
+The game board set up takes relative long time to finish drawing :D. 
+######
+
+
+Design Starts Here!!!
+
+GUI: The first thing I want to build is the GUI of the game (based on Demo GUI). Using the given Marble class draw all the circle like 
+object on the GUI. Then design a function to draw all the rectangles. Create a turtle object called error, this object will register all 
+the gif images and display the desire one depend on the which condition is met. The three buttons (quit/checkbutton/xbutton) is 
+turtle object not using marble class.
+
+Click event: The only defined interative area is bottom rectangle, other area will only perform error message removing. For each 
+interative botton, the real interative zone is defined in rectangle shape not circle. 
+
+Gameplay: If user clicks green checkbutton without four colors choosen, warning message appear to tell user four colors are required to check. 
+If four colors include duplicated color, this means extreme quick muticlick happened. Error message appear, row_reset() is forced to run 
+and muticlick error record into .err file. End conditions: 1. When check_user() function return black pegs equal to 4 -- win. 2. User tried 
+all ten attemps -- lose. 3. User clicks quit button -- quit. Only win condition will update leader_board.txt.
+
+Leader board: at the beginning of the game, we will read the leader_board.txt (if not found, create an empty one, write into .err file), and 
+write the file info(best scores) onto the screen. Due to space limitation, only first 18 players onfile will be shown. At the end of game, 
+we will track the current player's score if he/she wins. If user exists in the leader_board.txt and the new score is smaller, then 
+we update the user's score. Finally, we rewrite the leader_board.txt to newest state. The user entered name will automatically 
+converted into upper case to make username not case sensative.
+
+Testing: The testing focus on non-turtle related funciton. The key function is to check the user's answer. Using random.seed() function 
+we set the answer fixed and 5 random generated user's try fixed. We test does the check_user() function returns correct number of red pegs 
+and black pegs. 
+
+Challenges and learning: Instead of write everything as function and globle variables in one file, I try to write functions as class method and global 
+variables as attributes for different classes(each class has one thing to focus on). This oop helped me modify all previous codes easier if needed.
+Another challenge is how to break final project into small pieces and finish it. This gives me an oppertunity to practice break big project into small
+pieces. Another challenge is how to handle muticlick error. I accidentally quick double clicked on colormarble and findout this error. The solution detail 
+is under deficiencies part above. 
